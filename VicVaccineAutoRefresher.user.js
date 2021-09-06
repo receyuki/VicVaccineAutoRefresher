@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         疫苗小助手
-// @namespace    https://receyuki.com
-// @version      1.4
+// @homepage     https://github.com/receyuki/VicVaccineAutoRefresher
+// @version      1.5
 // @description  自动刷新疫苗
 // @author       receyuki
+// @icon         https://github.com/receyuki/VicVaccineAutoRefresher/raw/main/assets/wrench.png
 // @match        http*://portal.cvms.vic.gov.au/*
 // @grant        GM_notification
 
