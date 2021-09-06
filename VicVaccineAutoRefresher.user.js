@@ -5,7 +5,7 @@
 // @description  自动刷新疫苗
 // @author       receyuki
 // @icon         https://github.com/receyuki/VicVaccineAutoRefresher/raw/main/assets/wrench.png
-// @match        http*://portal.cvms.vic.gov.au/*
+// @match        http*://portal.cvms.vic.gov.au/covidvaccine-booking-slots/*
 // @grant        GM_notification
 
 // 就一个自动刷页面+弹窗的无技术含量小工具（其实是因为懒

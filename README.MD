@@ -5,8 +5,8 @@
 ## 使用流程
 1. 在chrome上安装[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 2. 安装[本脚本](https://github.com/receyuki/VicVaccineAutoRefresher/raw/main/VicVaccineAutoRefresher.user.js)![tampermonkey](assets/tampermonkey.png)
-3. 手动登陆[预约官网](https://portal.cvms.vic.gov.au/)并设置刷新间隔![interval](assets/interval.png)~~感觉一分钟够快了..再快就有点没素质~~
-4. 选择需要刷的接种点，并设置好时间范围![slots](assets/slots.png)
+3. 手动登陆[预约官网](https://portal.cvms.vic.gov.au/)，选择需要刷的接种点
+4. 设置刷新间隔![interval](assets/interval.png)~~感觉一分钟够快了..再快就有点没素质~~，并设置好日期范围![slots](assets/slots.png)
 5. 如果tab上能显示刷新倒计时说明刷新器在正确运行![tab](assets/tab.png)
 6. 当脚本刷到新slot会自动弹窗（最小化浏览器也没事..别关页面就行）![notification](assets/notification.png)
 7. 点击弹窗会自动跳转到confirm页面![conform](assets/conform.png)
