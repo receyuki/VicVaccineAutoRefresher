@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         疫苗小助手
 // @homepage     https://github.com/receyuki/VicVaccineAutoRefresher
-// @version      1.5
+// @version      1.6
 // @description  自动刷新疫苗
 // @author       receyuki
 // @icon         https://github.com/receyuki/VicVaccineAutoRefresher/raw/main/assets/wrench.png
@@ -69,6 +69,12 @@
     indicator.appendChild(document.createTextNode("🔧在刷了在刷了！"));
     var p0= document.querySelector("body > div.navbar.navbar-inverse.navbar-static-top.header > div > div > div:nth-child(1)");
     document.querySelector("body > div.navbar.navbar-inverse.navbar-static-top.header > div > div").insertBefore(indicator, p0);
+
+    var notifiTest = document.createElement("button");
+    notifiTest.innerHTML = '测试提醒弹窗';
+    notifiTest.style.fontSize = "20px";
+    notifiTest.addEventListener("click", event => {GM_notification({title: "Notification Test", text: "弹窗工作正常", timeout: 15000, onclick: function(){window.focus();}});});
+    indicator.appendChild(notifiTest);
 
     function selectTime() {
         document.querySelector("#tblslots > tbody > tr:nth-child(1) > td:nth-child(3) > input").click();
